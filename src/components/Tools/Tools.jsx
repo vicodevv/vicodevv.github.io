@@ -1,7 +1,8 @@
 import react from '../../assets/react.png';
 import node from '../../assets/node.png';
 import mongodb from '../../assets/mongodb.png';
-import express from '../../assets/express.png';
+import postgres from '../../assets/postgres.jpeg';
+import express from '../../assets/express.jpeg';
 import nest from '../../assets/nest.png';
 import django from '../../assets/django.png';
 import springboot from '../../assets/springboot.png';
@@ -25,6 +26,7 @@ const Tools = () => {
         react,
         node,
         mongodb,
+        postgres,
         express,
         nest,
         django,
