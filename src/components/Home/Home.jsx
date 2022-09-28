@@ -2,6 +2,7 @@ import './Home.scss';
 import { SiTwitter, SiGithub, SiLinkedin } from 'react-icons/si';
 import { FaChevronDown } from 'react-icons/fa';
 import Vico from '../../assets/vico.png';
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     const scrollDown = () => {
@@ -16,7 +17,14 @@ const Home = () => {
                 <div className="intro">Hey there, my name is</div>
                 <div className="name">Omoniyi Victor</div>
                 <p className='subText'>
-                    I'm a Software Engineer who is currently working on building simple tools and backend REST APIs using SpringBoot, Golang and Express
+                <Typewriter
+                    options={{
+                    strings: ['I`m a Software Engineer who is currently working on building simple tools and backend REST APIs using SpringBoot, Golang and Express',
+                                'World'],
+                    autoStart: true,
+                    loop: true,
+                }}
+                />      
                 </p>
                 <div className="social">
                     <a href="https://github.com/vicodevv">
