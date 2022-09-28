@@ -17,7 +17,6 @@
         justify-content: center;
         max-width: 1800px;
         flex-wrap: wrap;
-        background-color: red;
 
         .project:hover{
             background: #1e1e1e;
@@ -28,9 +27,10 @@
             @media (min-width: 1024px){
                 transform: scale(1.05);
             }
-            a{
+            a, .info{
                 color: #fff;
             }
+            
 
         }
         .project{
@@ -48,6 +48,21 @@
             box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
             transition: all 0.3s ease-in-out;
             cursor: pointer;
+
+            a{
+                color: #000;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 600;
+                transition: all 0.3s ease-in-out; 
+            }
+            .info{
+                font-size: 1.2rem;
+                font-weight: normal;
+                margin-top: 0.5rem;
+                text-decoration: none;
+                color: #000;
+            }
         }
     }
 
