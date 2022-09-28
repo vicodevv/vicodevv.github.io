@@ -1,14 +1,18 @@
 import './Home.scss';
 import { SiTwitter, SiGithub, SiLinkedin } from 'react-icons/si';
+import Vico from '../../assets/vico.png';
 
 const Home = () => {
   return (
     <div id="home">
         <div className="container">
-            <img src="../../assets/vico memoji.png" alt="" />
+            <img src={Vico} alt="face" />
             <div className="bio">
                 <div className="intro">Hey there, my name is</div>
                 <div className="name">Omoniyi Victor</div>
+                <p className='subText'>
+                    I'm a Software Engineer who is currently working on building simple tools and backend REST APIs using SpringBoot, Golang and Express
+                </p>
                 <div className="social">
                     <a href="https://github.com/vicodevv">
                         <SiGithub />
