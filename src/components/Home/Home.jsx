@@ -1,8 +1,13 @@
 import './Home.scss';
 import { SiTwitter, SiGithub, SiLinkedin } from 'react-icons/si';
+import { FaChevronDown } from 'react-icons/fa';
 import Vico from '../../assets/vico.png';
 
 const Home = () => {
+    const scrollDown = () => {
+		const scrollTo = document.querySelector('#tools')
+		scrollTo.scrollIntoView({ behavior: 'smooth', inline: 'nearest' });
+	};
   return (
     <div id="home">
         <div className="container">
@@ -23,6 +28,9 @@ const Home = () => {
                     <a href="https://twitter.com/vicodev_">
                         <SiTwitter />
                     </a>
+                </div>
+                <div className="scrollDown">
+                    <FaChevronDown onClick={() => scrollDown()} />
                 </div>
             </div>
         </div>
