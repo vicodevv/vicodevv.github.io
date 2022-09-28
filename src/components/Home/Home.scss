@@ -146,6 +146,24 @@
 				transform: translateY(-15%);
 			}
         }
+        .scrollDown {
+            position: absolute;
+            bottom: 4%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            font-size: 2.5rem;
+            animation: arrowDown 3s ease-in infinite;
+            cursor: pointer;
+            @media (max-width: 767px) {
+                align-self: center;
+                justify-self: center;
+                left: 45%;
+            }
+            @media (max-width: 812px) and (orientation: landscape){
+                display: none;
+            }
+        }
         @keyframes social {
 			from {
 				opacity: 0;
