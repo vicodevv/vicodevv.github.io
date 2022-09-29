@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vicodevv.github.io/static/css/main.02fedb61.css",
+    "main.js": "/vicodevv.github.io/static/js/main.41fe0da2.js",
+    "static/media/java.png": "/vicodevv.github.io/static/media/java.20277de096aee496f2b8.png",
+    "static/media/sass.png": "/vicodevv.github.io/static/media/sass.95b95881f872d00e7e7b.png",
+    "static/media/typescript.png": "/vicodevv.github.io/static/media/typescript.c2eef6df8c253ae48ad3.png",
+    "static/media/vico.png": "/vicodevv.github.io/static/media/vico.1ded1df392a32211511c.png",
+    "static/media/aws.png": "/vicodevv.github.io/static/media/aws.850296a094250f4a242e.png",
+    "static/media/react.png": "/vicodevv.github.io/static/media/react.464a6a0cc6faefb72cb4.png",
+    "static/media/postman.png": "/vicodevv.github.io/static/media/postman.28d1c7e0540e14e9f5a2.png",
+    "static/media/mongodb.png": "/vicodevv.github.io/static/media/mongodb.a60f54c7399b083e94f0.png",
+    "static/media/postgres.jpeg": "/vicodevv.github.io/static/media/postgres.47a573a036d7491ed057.jpeg",
+    "static/media/github.png": "/vicodevv.github.io/static/media/github.140fa4d62c3584333da4.png",
+    "static/media/nest.png": "/vicodevv.github.io/static/media/nest.48507b4e2302032c375e.png",
+    "static/media/golang.png": "/vicodevv.github.io/static/media/golang.9299c975a9948e08ee6a.png",
+    "static/media/javascript.png": "/vicodevv.github.io/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/vicodevv.github.io/index.html",
+    "main.02fedb61.css.map": "/vicodevv.github.io/static/css/main.02fedb61.css.map",
+    "main.41fe0da2.js.map": "/vicodevv.github.io/static/js/main.41fe0da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02fedb61.css",
+    "static/js/main.41fe0da2.js"
+  ]
+}
