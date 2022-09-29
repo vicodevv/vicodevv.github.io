@@ -30,7 +30,9 @@
             a, .info{
                 color: #fff;
             }
-            
+            .tech{
+                color: gray
+            }
 
         }
         .project{
@@ -62,6 +64,12 @@
                 margin-top: 0.5rem;
                 text-decoration: none;
                 color: #000;
+            }
+            .tech{
+                font-size: 1rem;
+                font-weight: normal;
+                margin-top: 0.5rem;
+                color: gray;
             }
         }
     }

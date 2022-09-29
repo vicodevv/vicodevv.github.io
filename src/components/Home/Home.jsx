@@ -20,7 +20,8 @@ const Home = () => {
                 <Typewriter
                     options={{
                     strings: ['I`m a Software Engineer who is currently working on building simple tools and backend REST APIs using SpringBoot, Golang and Express',
-                                'World'],
+                            'I have experience working with engineering teams. I`m also a strong problem-solver who understands the principles of computer science, such as algorithms and data structures.',
+                            'I love watching and playing football during my free time, and I also enjoy listening to music and playing video games.'],
                     autoStart: true,
                     loop: true,
                 }}
