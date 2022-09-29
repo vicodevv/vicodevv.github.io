@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vicodevv.github.io/static/css/main.02fedb61.css",
+    "main.css": "/vicodevv.github.io/static/css/main.b0acb5c3.css",
     "main.js": "/vicodevv.github.io/static/js/main.41fe0da2.js",
     "static/media/java.png": "/vicodevv.github.io/static/media/java.20277de096aee496f2b8.png",
     "static/media/sass.png": "/vicodevv.github.io/static/media/sass.95b95881f872d00e7e7b.png",
@@ -16,11 +16,11 @@
     "static/media/golang.png": "/vicodevv.github.io/static/media/golang.9299c975a9948e08ee6a.png",
     "static/media/javascript.png": "/vicodevv.github.io/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/vicodevv.github.io/index.html",
-    "main.02fedb61.css.map": "/vicodevv.github.io/static/css/main.02fedb61.css.map",
+    "main.b0acb5c3.css.map": "/vicodevv.github.io/static/css/main.b0acb5c3.css.map",
     "main.41fe0da2.js.map": "/vicodevv.github.io/static/js/main.41fe0da2.js.map"
   },
   "entrypoints": [
-    "static/css/main.02fedb61.css",
+    "static/css/main.b0acb5c3.css",
     "static/js/main.41fe0da2.js"
   ]
 }
