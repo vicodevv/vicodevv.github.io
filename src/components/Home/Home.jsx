@@ -34,9 +34,6 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/victor-omoniyi-56a65218b/">
                         <SiLinkedin />
                     </a>
-                    <a href="https://twitter.com/vicodev_">
-                        <SiTwitter />
-                    </a>
                 </div>
                 <div className="scrollDown">
                     <FaChevronDown onClick={() => scrollDown()} />
