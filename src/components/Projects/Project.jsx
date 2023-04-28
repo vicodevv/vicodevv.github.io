@@ -1,4 +1,7 @@
 import { SiGithub } from 'react-icons/si';
+import { Si } from 'react-icons/si';
+import { BsLink45Deg } from 'react-icons/bs';
+
 import './Project.scss';
 
 const Project = () =>{
@@ -6,66 +9,52 @@ const Project = () =>{
         <div id='projects'>
             <div className="heading">Projects</div>
             <div className="project-container">
-                <div className="project">
-                    <a href="https://github.com/vicodevv/Library-API">Library API</a>
-                    <p className='tech'>Go</p>
-                    <p className='info'>This is a BookstoreAPI which performs the basic CRUD operations.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/Library-API">
-                            <SiGithub/>
-                        </a>
-                    </div>
-                </div>
-                <div className="project">
-                    <a href="https://github.com/vicodevv/Student-API">Student API</a>
-                    <p className='tech'>SpringBoot, MongoDB, Docker</p>
-                    <p className='info'>This is an API which is used to get students of a University.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/Student-API">
+                 
+            <div className="project-image">
+                <img src="https://user-images.githubusercontent.com/55485439/234602249-c5487928-ebf4-42e7-96f8-19d4b7736886.png" alt="Library Store" />
+            </div>
+            <div className="project">
+                <a href="https://github.com/vicodevv/library-store">Library Store</a>
+                <p className='tech'>Angular, Typescript, SpringBoot, Java, MySQL</p>
+                <p className='info'>A Spring boot and Angular web application for managing a small library. The application has a frontend interface and a backend (admin) interface. Library Managers can add books to the library's collection via the admin interface. Customers can browse for books, borrow and return the books via the frontend interface. They can see past books they have borrowed.</p>
+                <div className="icons">
+                    <a href="https://github.com/vicodevv/library-store">
                         <SiGithub/>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-                <div className="project">
-                    <a href="https://github.com/vicodevv/Ticket-API">Ticket API</a>
-                    <p className='tech'>NodeJS, ExpressJS, MongoDB</p>
-                    <p className='info'>This is an API which is used to create tickets and events.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/Ticket-API">
+            </div>
+
+            <div className="project-image">
+                <img src="https://user-images.githubusercontent.com/55485439/235227969-eafbb0a2-d7a6-4f79-a0bd-3207e39ff9f3.png" alt="Kupon" />
+            </div>
+            <div className="project">
+                <a href="https://github.com/devs-22/Kupon-V2">Kupon</a>
+                <p className='tech'>ReactJS, NodeJS, ExpressJS, Typescript, MongoDB</p>
+                <p className='info'>An Express and React web application that helps users send invoices to your customers globally, Get to provide details of your goods in seconds. Users can create an account and sign in, draft up an invoice for their customers in just few minutes and immediately send invoice to their customers after drafting through the mail.</p>
+                <div className="icons">
+                    <a href="https://github.com/devs-22/Kupon-V2">
                         <SiGithub/>
-                        </a>
-                    </div>
+                    </a>
+                    <a href="https://kupon-v2.vercel.app/">
+                        <BsLink45Deg/>
+                    </a>
                 </div>
-                <div className="project">
-                    <a href="https://github.com/vicodevv/twitter-trends">Twitter Trends</a>
-                    <p className='tech'>ReactJS, Twitter API</p>
-                    <p className='info'>This is used to get trending topics from a particular location on twitter.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/twitter-trends">
-                        <SiGithub/>
-                        </a>
-                    </div>
+            </div>
+
+            <div className="project-image">
+                <img src="https://user-images.githubusercontent.com/55485439/235227969-eafbb0a2-d7a6-4f79-a0bd-3207e39ff9f3.png" alt="Social Tree" />
+            </div>
+            <div className="project">
+                <a href="https://github.com/vicodevv/social-tree">Social Tree</a>
+                <p className='tech'>ReactJS, NodeJS, ExpressJS, Typescript, MongoDB</p>
+                <p className='info'>An Express and React web application that allows you to share multiple social media links. Users can add all their links to one shareable link. Users can perform Authentication (Registration and Login), Add links, update a link, delete a link</p>
+                <div className="icons">
+                    <a href="https://github.com/vicodevv/social-tree">
+                    <SiGithub/>
+                    </a>
                 </div>
-                <div className="project">
-                    <a href="https://github.com/vicodevv/netflix-clone">Netflix clone</a>
-                    <p className='tech'>ReactJS, Typescript, NodeJS, ExpressJS, MongoDB</p>
-                    <p className='info'>This is a full-stack mobile responsive Netflix clone.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/netflix-clone">
-                        <SiGithub/>
-                        </a>
-                    </div>
-                </div>
-                <div className="project">
-                    <a href="https://github.com/vicodevv/weather-app">Weather app</a>
-                    <p className='tech'>HTML, CSS, Open Weather API</p>
-                    <p className='info'>This is a weather app which gives the Temperature, Humidity and Wind speed of a location.</p>
-                    <div className="icons">
-                        <a href="https://github.com/vicodevv/weather-app">
-                        <SiGithub/>
-                        </a>
-                    </div>
-                </div>
+            </div>
+
             </div>
         </div>
     )
