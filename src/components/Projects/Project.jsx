@@ -1,5 +1,5 @@
 import { SiGithub } from 'react-icons/si';
-import { Si } from 'react-icons/si';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { BsLink45Deg } from 'react-icons/bs';
 
 import './Project.scss';
@@ -11,7 +11,7 @@ const Project = () =>{
             <div className="project-container">
                  
             <div className="project-image">
-                <img src="https://user-images.githubusercontent.com/55485439/234602249-c5487928-ebf4-42e7-96f8-19d4b7736886.png" alt="Library Store" />
+                <LazyLoadImage src={"https://user-images.githubusercontent.com/55485439/234602249-c5487928-ebf4-42e7-96f8-19d4b7736886.png"} alt="Library Store" PlaceholderSrc={"https://user-images.githubusercontent.com/55485439/235265482-a0a27dd4-8e63-42a4-bbce-7341990a69fc.jpg"}/>
             </div>
             <div className="project">
                 <a href="https://github.com/vicodevv/library-store">Library Store</a>
@@ -24,9 +24,7 @@ const Project = () =>{
                 </div>
             </div>
 
-            <div className="project-image">
-                <img src="https://user-images.githubusercontent.com/55485439/235227969-eafbb0a2-d7a6-4f79-a0bd-3207e39ff9f3.png" alt="Kupon" />
-            </div>
+            
             <div className="project">
                 <a href="https://github.com/devs-22/Kupon-V2">Kupon</a>
                 <p className='tech'>ReactJS, NodeJS, ExpressJS, Typescript, MongoDB</p>
@@ -39,6 +37,9 @@ const Project = () =>{
                         <BsLink45Deg/>
                     </a>
                 </div>
+            </div>
+            <div className="project-image">
+                <LazyLoadImage src={"https://user-images.githubusercontent.com/55485439/235227969-eafbb0a2-d7a6-4f79-a0bd-3207e39ff9f3.png"}  alt="Kupon" />
             </div>
 
             <div className="project-image">
