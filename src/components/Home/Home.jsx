@@ -24,6 +24,7 @@ const Home = () => {
                             'I love watching and playing football during my free time, and I also enjoy listening to music and playing video games.'],
                     autoStart: true,
                     loop: true,
+                    deleteSpeed: 5,
                 }}
                 />      
                 </p>
