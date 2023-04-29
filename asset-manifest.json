@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vicodevv.github.io/static/css/main.08f59c0f.css",
-    "main.js": "/vicodevv.github.io/static/js/main.133ddc5e.js",
+    "main.js": "/vicodevv.github.io/static/js/main.6815e3aa.js",
     "static/media/java.png": "/vicodevv.github.io/static/media/java.20277de096aee496f2b8.png",
     "static/media/sass.png": "/vicodevv.github.io/static/media/sass.95b95881f872d00e7e7b.png",
     "static/media/typescript.png": "/vicodevv.github.io/static/media/typescript.c2eef6df8c253ae48ad3.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/vicodevv.github.io/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/vicodevv.github.io/index.html",
     "main.08f59c0f.css.map": "/vicodevv.github.io/static/css/main.08f59c0f.css.map",
-    "main.133ddc5e.js.map": "/vicodevv.github.io/static/js/main.133ddc5e.js.map"
+    "main.6815e3aa.js.map": "/vicodevv.github.io/static/js/main.6815e3aa.js.map"
   },
   "entrypoints": [
     "static/css/main.08f59c0f.css",
-    "static/js/main.133ddc5e.js"
+    "static/js/main.6815e3aa.js"
   ]
 }
